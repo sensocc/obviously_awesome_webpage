@@ -2,13 +2,13 @@ body {
     font-family: Arial, Helvetica, sans-serif;
     display: flex;
     flex-direction: column;
-    gap: 55px;
 }
 
 .header {
     background: #1f2937;
     display: flex;
     justify-content: space-around;
+    height: 50px;
 }
 
 .links {
@@ -19,25 +19,51 @@ body {
     gap: 15px;
 }
 
+#li-1,
+#li-2,
+#li-3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
 #logo {
     font-size: 24px;
     color: #f9faf8;
     font-weight: bold;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 img {
-    height: 100px;
+    height: 130px;
+    width: 150px;
 }
 
 .hea2 {
     background: #1f2937;
     display: flex;
     justify-content: space-around;
+    height: 400px;
 }
 
 .ok {
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    gap: 15px;
+}
+
+#pic1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#awe {
+    height: 200px;
+    width: 290px;
 }
 
 #title1 {
@@ -49,6 +75,7 @@ img {
 #text1 {
     font-size: 18px;
     color: #e5e7eb;
+    width: 550px;
 }
 
 #signup1 {
@@ -58,12 +85,17 @@ img {
     background-color: #3882f6;
     border-radius: 5px;
     text-align: center;
-    width: 105px;
+    width: 145px;
+    height: 45px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 #title2{
     font-size: 36px;
     color: #1f2937;
     font-weight: bolder;
+    text-align: center;
 }
 
 #pic-inf1,
@@ -72,6 +104,13 @@ img {
 #pic-inf4 {
     border: 4px solid #3882f6;
     border-radius: 10px;
+}
+
+.cont1 {
+    margin-top: 55px;
+    display: flex;
+    flex-direction: column;
+    gap: 45px;
 }
 
 .rand-inf {
@@ -90,8 +129,13 @@ img {
 }
 
 .cont2 {
+    margin-top: 55px;
     background: #e5e7eb;
     text-align: center;
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 #quote {
@@ -101,23 +145,28 @@ img {
 }
 
 #quote-author {
-    padding-left: 295px;
+    padding-left: 995px;
     font-weight: bolder;
     font-size: 18px;
 }
 
 .cont3 {
+    margin-top: 55px;
     background: #3882f6;
-    border-radius: 5px;
+    border-radius: 8px;
     color: #f9faf8;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
+    margin-left: 150px;
+    margin-right: 150px;
+    height: 160px;
 }
 
 .nonsu{
     display: flex;
     flex-direction: column;
+    justify-content: center;
 }
 
 #title3 {
@@ -127,6 +176,7 @@ img {
 
 #text2 {
     font-size: 16px;
+    color: #e5e7eb;
 }
 
 #signup2 {
@@ -136,10 +186,25 @@ img {
     border-radius: 5px;
     text-align: center;
     width: 105px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 35px;
+}
+
+.su2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 .footer {
+    margin-top: 55px;
     background: #1f2937;
     color: #e5e7eb;
     text-align: center;
+    height: 120px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
